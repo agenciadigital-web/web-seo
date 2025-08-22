@@ -57,10 +57,23 @@
 .hero-img {width: 100%;height: 100%;object-fit: cover; /* Esto recorta la imagen para que llene el contenedor sin deformarse */
 display: block;
 }
+
+.ugc-img {
+  width: 60%;      /* ajusta el tamaño, por ejemplo al 60% */
+  max-width: 500px; /* evita que crezca demasiado en pantallas grandes */
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto; /* centrado con margen */
+}
+
     @media (max-width:768px) { .container { padding:10px; } }
     @media (max-width: 768px) {
   .video-container {
     padding-bottom: 75%; /* un poco más alto en móvil */
+  }
+  .ugc-img {
+    width: 90%;        /* más ancho en pantallas pequeñas */
+    max-width: 100%;   /* ocupa todo el ancho disponible */
   }
 }
 
@@ -107,7 +120,7 @@ display: block;
     
     <h2>¿Por qué es importante el UGC?</h2>
 <p>El contenido generado por usuarios transmite autenticidad. Según <a href="https://www.thinkwithgoogle.com/intl/es-es/" target="_blank" rel="noopener">Think with Google</a>, los consumidores confían más en recomendaciones de otros usuarios que en la publicidad tradicional. Incorporar UGC en tu estrategia mejora la reputación online y fortalece tu <a href="gestion-redes.html">gestión de redes sociales</a>.</p>
-<img src="images/ugc.png" alt="Ejemplo de contenido generado por usuarios" style="width:100%;border-radius:12px;">
+<img src="images/ugc.png" alt="Ejemplo de contenido generado por usuarios" class="ugc-img">
 
 <h2>Beneficios del Contenido Generado por Usuarios</h2>
 <ul>

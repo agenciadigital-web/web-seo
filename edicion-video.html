@@ -57,59 +57,7 @@
 .hero-img {width: 100%;height: 100%;object-fit: cover; /* Esto recorta la imagen para que llene el contenedor sin deformarse */
 display: block;
 }
-.hero-texto {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
-  max-width: 90%;
-}
 
-/* Título */
-.hero .titulo {
-  font-size: 2.2rem;  /* Desktop por defecto */
-  line-height: 1.3;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-}
-
-/* Párrafo */
-.hero p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-/* Botón */
-.boton-container .boton {
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  display: inline-block;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .hero .titulo {
-    font-size: 1.8rem;  /* Ajusta tamaño en tablets */
-  }
-  .hero p {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero .titulo {
-    font-size: 1.5rem;  /* Ajusta tamaño en móviles */
-  }
-  .hero p {
-    font-size: 0.95rem;
-  }
-  .boton-container .boton {
-    padding: 0.7rem 1.2rem;
-    font-size: 0.95rem;
-  }
-}
 
     @media (max-width:768px) { .container { padding:10px; } }
     @media (max-width: 768px) {

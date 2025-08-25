@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="author" content="Agencia-Digital">
+  <title>SEO Técnico: Tu Guía Completa para Optimizar tu Sitio Web</title>
+  <meta name="description" content="Aprende SEO Técnico paso a paso: optimización de velocidad, mobile-first, HTTPS, datos estructurados y experiencia del usuario. Mejora tu posicionamiento en Google.">
+  <meta name="keywords" content="SEO Técnico, velocidad web, mobile-first, HTTPS, Schema, rich snippets, SEO on-page, SEO off-page, link building, experiencia del usuario, optimización web, Google, seguridad web">
+<link rel="canonical" href="https://agenciadigital-web.github.io/web-seo/seo-tec.html">
+<meta property="og:title" content="SEO Técnico: Tu Guía Completa para Optimizar tu Sitio Web">
+  <meta property="og:description" content="Descubre cómo el SEO Técnico, la velocidad de carga, mobile-first y datos estructurados pueden llevar tu sitio web a las primeras posiciones en Google.">
+  <meta property="og:type" content="article">
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Librería de animaciones AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-/xUj+3OJ7LgICj3e4YXFrW/1NzX9U4D0IpF6OgB/3vNdy1McO3d3eA2JgDcSFr9PZ0Kb1FaElH1tV7t/+L3zNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fuente de Google (ejemplo, puedes cambiarla) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    h1,h2,h3 { color: #222; }
+    .titulo { color: #c1bdbd; }
+    img { max-width: 100%; height: auto; display:block; margin:20px 0; }
+    .video-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* ancho máximo en PC */
+  margin: 1rem auto;
+  padding-bottom: 56.25%; /* proporción 16:9 por defecto */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hero-img {width: 100%;height: 100%;object-fit: cover; /* Esto recorta la imagen para que llene el contenedor sin deformarse */
+display: block;
+}
+    @media (max-width:768px) { .container { padding:10px; } }
+    @media (max-width: 768px) {
+  .video-container {
+    padding-bottom: 75%; /* un poco más alto en móvil */
+  }
+}
+
+/* Opcional: Pantallas grandes */
+@media (min-width: 1200px) {
+  .video-container {
+    max-width: 1000px; /* más ancho en pantallas grandes */
+    padding-bottom: 56.25%;
+  }
+  }
+  </style>
+</head>
+<body>
+ <header>
+  <div class="container">
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html#servicios">Servicios</a></li>
+        <li><a href="index.html#portafolio">Portafolio</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section class="hero">
+  <img src="images/porseo.jpg" alt="Portada" class="hero-img">
+  <div class="hero-texto">
+  <h2 class="titulo">SEO Técnico: Tu Brújula Esencial para el Éxito Digital</h2>
+  <p>¿Alguna vez te preguntaste por qué algunos sitios web aparecen arriba en Google y otros no? No es magia. Detrás de cada página exitosa hay un trabajo de base crucial: hablamos de <strong>SEO técnico</strong>. Sin una base sólida, incluso el contenido más brillante puede pasar desapercibido. Es como construir un edificio hermoso sin cimientos fuertes; tarde o temprano, todo se derrumba.</p>
+  <div class="boton-container">
+    <a href="https://wa.me/34666191160" class="boton">Más información</a>
+  </div>
+</div>
+</section>
+
+
+  <section class="container">
+    
+     <h2>1. Optimizando la Rastreabilidad y la Indexabilidad</h2>
+    <h3>Arquitectura del Sitio y Navegación Clara</h3>
+    <p>Una estructura de sitio bien pensada es un mapa para los buscadores. Usa <a href="seo-onpage.html">enlaces internos</a> desde menús, pies de página y dentro del contenido. Un <a href="https://developers.google.com/search/docs/advanced/sitemaps/overview?hl=es" target="_blank" rel="nofollow noopener">sitemap XML</a> actúa como índice completo de tus páginas para los motores de búsqueda y debe estar siempre actualizado.</p>
+
+    <h3>Gestionando Archivos Robots.txt y Meta Tags</h3>
+    <p>El archivo <strong>robots.txt</strong> indica a los bots qué páginas explorar y cuáles ignorar. Usa meta tags <code>noindex</code> o <code>nofollow</code> para controlar la indexación y el seguimiento de enlaces a nivel de página. Por ejemplo: <code>&lt;meta name="robots" content="noindex, follow"&gt;</code>. Más info: <a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=es" target="_blank" rel="nofollow noopener">Guía de Google</a>.</p>
+
+    <h3>URLs Amigables y Estructuradas</h3>
+    <p>Las URLs cortas, descriptivas y con guiones son esenciales. Evita parámetros innecesarios y establece URLs canónicas para prevenir contenido duplicado (<a href="https://developers.google.com/search/docs/advanced/crawling/consolidate-duplicate-urls?hl=es" target="_blank" rel="nofollow noopener">ver guía</a>).</p>
+
+    <h2>2. Acelerando el Rendimiento del Sitio: Velocidad y Experiencia del Usuario</h2>
+    <h3>Optimización de Imágenes y Contenido Multimedia</h3>
+    <p>Comprime imágenes y videos, utiliza formatos modernos como WebP y aplica <strong>lazy loading</strong> para mejorar la velocidad de carga y la experiencia del usuario.</p>
+
+    <h3>Minificación de Código y Caching</h3>
+    <p>Minifica CSS, JavaScript y HTML. Habilita caching en navegador y servidor para mejorar la experiencia de los usuarios recurrentes.</p>
+
+    <h3>CDNs y Cache del Navegador</h3>
+    <p>Las <strong>CDNs</strong> entregan contenido desde el servidor más cercano al visitante, reduciendo la latencia. Configura headers HTTP para el caché del navegador y optimiza recursos estáticos.</p>
+
+    <h2>3. Mobile-First Indexing y Optimización para Dispositivos Móviles</h2>
+    <p>Diseño responsivo y pruebas de usabilidad móvil son claves. Google prioriza la versión móvil de tu sitio (<a href="https://developers.google.com/search/mobile-sites/mobile-first-indexing?hl=es" target="_blank" rel="nofollow noopener">Mobile-First Indexing</a>).</p>
+    <p>Optimiza fuentes, JavaScript y tiempos de carga para conexiones móviles lentas. Mantén la jerarquía de contenido clara y accesible.</p>
+
+    <h2>4. Seguridad del Sitio: Un Pilar Fundamental del SEO Técnico</h2>
+    <h3>Implementación de HTTPS</h3>
+    <p>HTTPS protege la comunicación y es un factor de ranking. Obtén un <a href="https://letsencrypt.org/" target="_blank" rel="nofollow noopener">certificado SSL/TLS</a> y redirige todo el tráfico HTTP a HTTPS.</p>
+
+    <h3>Protección contra Vulnerabilidades Comunes</h3>
+    <p>Evita ataques como SQL Injection o XSS, mantén CMS, plugins y temas actualizados. Considera un <strong>WAF</strong> para bloquear tráfico malicioso.</p>
+
+    <h2>5. Datos Estructurados y Experiencia del Usuario Enriquecida</h2>
+    <p>El <strong>Schema Markup</strong> ayuda a los motores de búsqueda a entender tu contenido. Usa el tipo adecuado para artículos, productos o reseñas y valida con <a href="https://search.google.com/test/rich-results" target="_blank" rel="nofollow noopener">herramienta de Google</a>. Esto permite <strong>rich snippets</strong> que aumentan el CTR.</p>
+
+    <h2>Conclusión</h2>
+    <p>El <strong>SEO técnico</strong> es la base invisible de todo éxito digital. Desde la rastreabilidad y indexabilidad hasta la velocidad, mobile-first, seguridad y Schema, cada detalle importa. Complementa estas prácticas con <a href="seo-onpage.html">SEO On-Page</a> y <a href="seo-offpage.html">SEO Off-Page</a> para lograr un sitio web optimizado y competitivo. Auditorías técnicas regulares y optimización continua asegurarán tu crecimiento en buscadores.</p>
+
+    <a href="index.html#servicios" class="btn">Volver a Servicios</a>
+  </section>
+
+   <footer>
+  <div class="container footer-contenido">
+    <p>&copy; 2025 Agencia-Digital. Todos los derechos reservados.</p>
+    
+    <div class="footer-contacto">
+      <p><i class="fas fa-phone"></i> <a href="https://wa.me/34666191160">+34 666 19 11 60</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:adrinaidigital@gmail.com">adrinaidigital@gmail.com</a></p>
+    </div>
+    
+    <div class="footer-redes">
+        <a href="https://wa.me/34666191160" aria-label="whatsapp"target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61579339311248" aria-label="facebook"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/adrinai_digital/" aria-label="instagram"target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@adrinai_digital" aria-label="youtube"target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/adrinai-digital-conchi/"aria-label="linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://" aria-label="Google"><i class="fab fa-google"></i></a>
+      <a href="https://www.tiktok.com/@adrinai_digital8" aria-label="tiktok"target="_blank" aria-label="TikTok" rel="noopener noreferrer"><i class="fab fa-tiktok"></i>
+</a>
+
+    </div>
+  </div>
+</footer>
+  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+  <script>
+  const botonesFiltro = document.querySelectorAll(".filtro-btn");
+  const proyectos = document.querySelectorAll(".portafolio .card");
+
+  botonesFiltro.forEach(boton => {
+    boton.addEventListener("click", () => {
+      // Marcar botón activo
+      botonesFiltro.forEach(btn => btn.classList.remove("activo"));
+      boton.classList.add("activo");
+
+      const filtro = boton.dataset.filtro;
+
+      proyectos.forEach(proyecto => {
+        if (filtro === "todos" || proyecto.classList.contains(filtro)) {
+          proyecto.style.display = "block";
+        } else {
+          proyecto.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const nav = document.getElementById('main-nav');
+  const icon = toggleBtn.querySelector('i');
+
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('nav-open');
+    const isOpen = document.body.classList.contains('nav-open');
+
+    toggleBtn.setAttribute('aria-expanded', isOpen);
+
+    // Cambiar icono (hamburguesa ↔ X)
+    icon.classList.toggle('fa-bars', !isOpen);
+    icon.classList.toggle('fa-xmark', isOpen);
+  });
+
+  // Cerrar al hacer click en un enlace
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.body.classList.remove('nav-open');
+      toggleBtn.setAttribute('aria-expanded', false);
+      icon.classList.add('fa-bars');
+      icon.classList.remove('fa-xmark');
+    });
+  });
+});
+</script>
+</body>
+</html>

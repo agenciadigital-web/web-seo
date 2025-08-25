@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+<meta name="description" content="Guía definitiva de SEO On-Page para optimizar tu web, mejorar posiciones en Google y aumentar tu tráfico orgánico con estrategias prácticas.">
+  <meta name="author" content="Agencia-Digital">
+  <title>Dominando el SEO On-Page: Guía Completa</title>
+<link rel="canonical" href="https://agenciadigital-web.github.io/web-seo/seo-onpage.html">
+<meta property="og:title" content="Dominando el SEO On-Page: Guía Definitiva para Escalar en Google">
+<meta property="og:description" content="Optimiza tu web como un experto: palabras clave, títulos, meta descripciones, enlaces internos, imágenes y velocidad. Descubre cómo el SEO on-page puede aumentar tu tráfico orgánico hasta un 50%.">
+<meta property="og:type" content="article">
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Librería de animaciones AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-/xUj+3OJ7LgICj3e4YXFrW/1NzX9U4D0IpF6OgB/3vNdy1McO3d3eA2JgDcSFr9PZ0Kb1FaElH1tV7t/+L3zNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fuente de Google (ejemplo, puedes cambiarla) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    h1,h2,h3 { color: #222; }
+    .titulo { color: #c1bdbd; }
+    img { max-width: 100%; height: auto; display:block; margin:20px 0; }
+    .video-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* ancho máximo en PC */
+  margin: 1rem auto;
+  padding-bottom: 56.25%; /* proporción 16:9 por defecto */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hero-img {width: 100%;height: 100%;object-fit: cover; /* Esto recorta la imagen para que llene el contenedor sin deformarse */
+display: block;
+}
+    @media (max-width:768px) { .container { padding:10px; } }
+    @media (max-width: 768px) {
+  .video-container {
+    padding-bottom: 75%; /* un poco más alto en móvil */
+  }
+}
+
+/* Opcional: Pantallas grandes */
+@media (min-width: 1200px) {
+  .video-container {
+    max-width: 1000px; /* más ancho en pantallas grandes */
+    padding-bottom: 56.25%;
+  }
+  }
+  </style>
+</head>
+<body>
+ <header>
+  <div class="container">
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html#servicios">Servicios</a></li>
+        <li><a href="index.html#portafolio">Portafolio</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section class="hero">
+  <img src="images/porseo.jpg" alt="Portada" class="hero-img">
+  <div class="hero-texto">
+  <h2 class="titulo">Dominando el SEO On-Page: Tu Guía Definitiva para Escalar Posiciones</h2>
+  <p>¿Sabías que optimizar tu sitio web internamente puede aumentar el tráfico orgánico hasta un 50%? Muchas empresas luchan por ser vistas en línea. 
+    Tu página web merece una mejor posición en los buscadores. El <a href="#seo-on-page">SEO on-page</a> es la base. Este artículo te mostrará cómo. 
+    Aprenderás estrategias prácticas. Obtendrás una comprensión completa de las mejores prácticas de SEO on-page. </p>
+  <div class="boton-container">
+    <a href="https://wa.me/34666191160" class="boton">Más información</a>
+  </div>
+</div>
+</section>
+
+
+  <section class="container">
+    
+    <h2 id="fundamentos">Entendiendo los Fundamentos del SEO On-Page</h2>
+    <h3 id="que-es">¿Qué es el SEO On-Page?</h3>
+    <p>El SEO on-page se refiere a las acciones de optimización que haces dentro de tu propia página. Su principal meta es mejorar cómo tu sitio aparece en los <a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener">resultados de búsqueda</a>. Enfócate en elementos visibles y en el código fuente. Esto lo haces página por página.</p>
+    <p>Diferenciarlo del <a href="https://ahrefs.com/blog/es/seo-off-page/" target="_blank"rel="noopener">SEO off-page</a> es fácil. El off-page incluye cosas externas como link building o señales sociales. El SEO on-page, en cambio, es tu territorio. Es crucial para el éxito orgánico. Una buena experiencia de usuario empieza aquí.</p>
+
+    <h3 id="algoritmos">El Rol de los Algoritmos de los Motores de Búsqueda</h3>
+    <p>Los motores como <a href="https://www.google.com/" target="_blank"rel="noopener">Google</a> exploran internet sin parar. Ellos rastrean, indexan y clasifican las páginas web. Así deciden qué mostrarte. ¿Cómo funciona? Un algoritmo examina tu sitio. Este proceso es complejo.</p>
+    <p>Los elementos on-page afectan mucho estos algoritmos. Hablamos de la relevancia de tu contenido. También de la autoridad que proyectas. La experiencia del usuario es clave. Los algoritmos no se quedan quietos. Google los actualiza seguido. Por eso, la optimización debe ser constante.</p>
+
+    <h2 id="contenido">Optimizando Tu Contenido para Buscadores y Usuarios</h2>
+    <h3 id="keywords">Investigación e Integración de Palabras Clave</h3>
+    <p>Primero, encuentra las palabras que usa tu público. Busca aquellas con buen volumen de búsqueda. Piensa en la intención detrás de cada búsqueda.</p>
+    <p>Hay herramientas que te ayudan mucho: <a href="https://ads.google.com/home/tools/keyword-planner/" target="_blank"rel="noopener">Google Keyword Planner</a>, <a href="https://ahrefs.com/" target="_blank"rel="noopener">Ahrefs</a> y <a href="https://www.semrush.com/es/" target="_blank" rel="noopener">SEMrush</a>. Mira lo que hace tu competencia. No olvides las <a href="https://neilpatel.com/es/blog/palabras-clave-de-cola-larga/" target="_blank"rel="noopener">palabras clave de cola larga</a>.</p>
+    <p>Luego, coloca esas palabras clave con inteligencia en el <a href="#titulos">título</a>, la meta descripción, encabezados H1, H2 y el primer párrafo. No olvides el texto alternativo de las imágenes.</p>
+
+    <h3 id="contenido-calidad">Creando Contenido de Alta Calidad y Atractivo</h3>
+    <p>Tu contenido debe ser profundo y útil. Responde a las preguntas de tu audiencia. Ofrece valor genuino. Usa párrafos cortos, listas con viñetas y subtítulos (H2, H3) para mejorar la lectura.</p>
+    <p>Evita el contenido duplicado a toda costa. Como dice un experto: <em>"La calidad del contenido es el motor principal para ganar en el SEO"</em>. Un contenido único y bien hecho siempre gana.</p>
+
+    <h2 id="elementos">Elementos On-Page Esenciales para Optimizar</h2>
+    <h3 id="titulos">Etiquetas de Título y Meta Descripciones</h3>
+    <p>La etiqueta de título es lo primero que ve la gente en Google. Debe contener tu palabra clave principal y ser único. Incluye tu marca al final.</p>
+    <p>La meta descripción funciona como un anuncio breve. Resume tu página, incluye palabras clave y una llamada a la acción.</p>
+
+    <h3 id="encabezados">Etiquetas de Encabezado (H1-H6)</h3>
+    <p>El H1 es el título principal y debe incluir la palabra clave principal. Los H2 y H3 organizan el contenido, usando palabras clave secundarias. Esto mejora tanto la lectura como la relevancia SEO.</p>
+
+    <h3 id="imagenes">Optimización de Imágenes</h3>
+    <p>Nombra tus archivos de imagen con palabras clave descriptivas. Añade <a href="https://moz.com/learn/seo/alt-text" target="_blank"rel="noopener">texto alternativo (alt text)</a> para accesibilidad y SEO. Comprime tus imágenes con herramientas como <a href="https://tinypng.com/" target="_blank"rel="noopener">TinyPNG</a> para mejorar la velocidad.</p>
+
+    <h3 id="enlaces">Enlaces Internos y Externos</h3>
+    <p>Los enlaces internos conectan tus páginas y ayudan a distribuir autoridad. Por ejemplo, aquí volvemos a los <a href="#fundamentos">fundamentos del SEO On-Page</a>. Usa textos ancla descriptivos.</p>
+    <p>Los enlaces externos ofrecen credibilidad. Enlaza siempre a <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank"rel="noopener">fuentes oficiales</a> y abre en nueva pestaña.</p>
+
+    <h2 id="tecnico">Consideraciones Técnicas de SEO On-Page</h2>
+    <h3 id="urls">Estructura de la URL</h3>
+    <p>Usa URLs limpias, cortas y descriptivas. Ejemplo: <code>tudominio.com/guia-seo-on-page</code>. Evita números y caracteres extraños.</p>
+
+    <h3 id="velocidad">Velocidad de la Página y Adaptación Móvil</h3>
+    <p>La velocidad afecta directamente la experiencia de usuario y tus rankings. Según estudios, el <strong>40% abandona una web si tarda más de 3 segundos</strong> en cargar. Optimiza imágenes, habilita caché y minifica CSS/JS. Usa <a href="https://pagespeed.web.dev/" target="_blank"rel="noopener">Google PageSpeed Insights</a> para medir mejoras.</p>
+
+    <h3 id="schema">Marcado Schema (Datos Estructurados)</h3>
+    <p>El <a href="https://schema.org/" target="_blank"rel="noopener">marcado Schema</a> ayuda a los buscadores a entender tu contenido. Puede mejorar tus fragmentos enriquecidos y tu visibilidad en Google. Es recomendable para artículos, productos o reseñas.</p>
+
+    <h2 id="medicion">Midiendo y Ajustando el Éxito del SEO On-Page</h2>
+    <h3 id="kpis">Indicadores Clave de Rendimiento (KPIs)</h3>
+    <p>Monitorea métricas como el tráfico orgánico, posiciones de palabras clave, CTR en <a href="https://search.google.com/search-console/about" target="_blank"rel="noopener">Google Search Console</a>, tasa de rebote y tiempo en página con <a href="https://analytics.google.com/" target="_blank" rel="noopener">Google Analytics</a>.</p>
+
+    <h3 id="analisis">Usando Herramientas de Análisis</h3>
+    <p>Google Analytics muestra el comportamiento de los usuarios. Search Console informa sobre indexación y rendimiento en búsquedas. Herramientas como SEMrush o Ahrefs permiten auditorías completas de SEO on-page.</p>
+
+    <h3 id="mejora">Mejora Continua</h3>
+    <p>Realiza auditorías SEO periódicas. Actualiza artículos antiguos. Mantente al día con los cambios de algoritmo. El SEO es un proceso de adaptación constante.</p>
+
+    <h2 id="conclusion">Conclusión</h2>
+    <p>El SEO on-page es más que una tarea: es una inversión continua. Recuerda integrar palabras clave, crear <a href="#contenido-calidad">contenido de calidad</a>, optimizar lo técnico y siempre pensar en la experiencia del usuario. Empieza hoy mismo a aplicar estas estrategias y verás cómo tu web escala posiciones en Google.</p>
+
+    <a href="index.html#servicios" class="btn">Volver a Servicios</a>
+  </section>
+
+   <footer>
+  <div class="container footer-contenido">
+    <p>&copy; 2025 Agencia-Digital. Todos los derechos reservados.</p>
+    
+    <div class="footer-contacto">
+      <p><i class="fas fa-phone"></i> <a href="https://wa.me/34666191160">+34 666 19 11 60</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:adrinaidigital@gmail.com">adrinaidigital@gmail.com</a></p>
+    </div>
+    
+    <div class="footer-redes">
+        <a href="https://wa.me/34666191160" aria-label="whatsapp"target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61579339311248" aria-label="facebook"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/adrinai_digital/" aria-label="instagram"target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@adrinai_digital" aria-label="youtube"target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/adrinai-digital-conchi/"aria-label="linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://" aria-label="Google"><i class="fab fa-google"></i></a>
+      <a href="https://www.tiktok.com/@adrinai_digital8" aria-label="tiktok"target="_blank" aria-label="TikTok" rel="noopener noreferrer"><i class="fab fa-tiktok"></i>
+</a>
+
+    </div>
+  </div>
+</footer>
+  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+  <script>
+  const botonesFiltro = document.querySelectorAll(".filtro-btn");
+  const proyectos = document.querySelectorAll(".portafolio .card");
+
+  botonesFiltro.forEach(boton => {
+    boton.addEventListener("click", () => {
+      // Marcar botón activo
+      botonesFiltro.forEach(btn => btn.classList.remove("activo"));
+      boton.classList.add("activo");
+
+      const filtro = boton.dataset.filtro;
+
+      proyectos.forEach(proyecto => {
+        if (filtro === "todos" || proyecto.classList.contains(filtro)) {
+          proyecto.style.display = "block";
+        } else {
+          proyecto.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const nav = document.getElementById('main-nav');
+  const icon = toggleBtn.querySelector('i');
+
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('nav-open');
+    const isOpen = document.body.classList.contains('nav-open');
+
+    toggleBtn.setAttribute('aria-expanded', isOpen);
+
+    // Cambiar icono (hamburguesa ↔ X)
+    icon.classList.toggle('fa-bars', !isOpen);
+    icon.classList.toggle('fa-xmark', isOpen);
+  });
+
+  // Cerrar al hacer click en un enlace
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.body.classList.remove('nav-open');
+      toggleBtn.setAttribute('aria-expanded', false);
+      icon.classList.add('fa-bars');
+      icon.classList.remove('fa-xmark');
+    });
+  });
+});
+</script>
+</body>
+</html>

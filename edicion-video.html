@@ -39,8 +39,7 @@
   width: 100%;
   max-width: 900px; /* ancho máximo en PC */
   margin: 1rem auto;
-  padding-bottom: 56.25%; /* proporción 16:9 por defecto */
-  height: 0;
+  aspect-ratio: 16 / 9; /* proporción 16:9 por defecto */
   overflow: hidden;
   border-radius: 12px;
 }
@@ -69,8 +68,7 @@ display: block;
 /* Opcional: Pantallas grandes */
 @media (min-width: 1200px) {
   .video-container {
-    max-width: 1000px; /* más ancho en pantallas grandes */
-    padding-bottom: 56.25%;
+    max-width: 600px; /* más ancho en pantallas grandes */
   }
   }
   </style>
